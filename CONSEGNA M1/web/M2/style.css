@@ -1,0 +1,831 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 4-apr-2016, 15.27.21
+    Author     : mariabernadetta
+*/
+@media only screen and (min-width:1024px) {
+body {background-color:darkgray;
+       }
+ p { text-align : justify; 
+  font-family: "Comic Sans MS", Times, serif ; 
+color:  black;
+font-size:15px;
+font-weight:bold;
+}
+/* IMPOSTO STILE DI H1 */
+h1 { color: #FF0020;
+     font-size:50px;
+     font-family: "Algerian", Times,serif ;
+     text-align : center;}
+/*IMPOSTO STILE DI H2*/
+h2 {color: yellow;
+     font-family: "Elephant", Times, serif ;
+     text-align : center;
+     font-size:35px;
+    }
+    /*IMPOSTO STILE DI H3*/
+h3 {color: #20C0E0;
+         font-family: "times new roman", Times, serif ;
+     text-align : center;
+     text-decoration: underline;
+     font-size:20px;
+    }
+    /*IMPOSTO STILE UL E LI*/
+ ul { 
+     list-style-type: disc;
+ }
+  li { 
+  font-style:italic;
+  font-size:20px;
+  color:black;
+  }
+  /*STILE LINK*/
+  a {
+      color:black;
+  }
+ 
+  
+  
+  /*IMPOSTAZIONI TABELLA*/
+  #tab {position:relative;
+            overflow-x:auto;
+            margin-left:2%;
+            margin-right:2%;
+                
+                
+                }
+  th {color:white;
+  font-family: "Times New Roman", Times, serif ;
+  font-size: 25px;
+  padding:10px;
+  border-style:solid;
+      
+  
+  }
+  
+  tr {color:black;
+      font-family: "Times New Roman", Times, serif ;
+      font-size: 15px;
+      border-style:solid;
+     padding:10px;
+         font-weight:bold;
+      
+  }
+  td {padding:30px;
+      border-style:solid;
+          font-size: 15px;
+          text-align:center;
+          padding:10px;
+          font-weight:bold;
+ }
+ td>img {
+          max-width:100%;
+          height:auto
+      }
+ table {border-collapse:collapse;}
+ /*RIGHE PARI E DISPARI COLORE DIVERSO*/
+ .dispari {background:#D0C030;}
+ .pari {background:#D0E030;}
+  .intestazione {
+      background:#000010;}
+  
+  #Lin
+  { font-style:italic;
+  font-size:20px;
+  color:black;
+  }
+  #username {
+      font-family: "Times New Roman", Times, serif ;
+      font-size: 20px;
+      }
+  #password {
+      
+          font-family: "Times New Roman", Times, serif ;
+      font-size: 20px;
+          
+  }
+  
+ input,textarea
+ {
+     border:solid;
+     border-color:yellow;
+     background:black;
+     color:white;
+     
+ }
+ 
+ label
+ {
+     color:black;
+    font-weight:bold;
+    
+  font-size:20px;
+  
+     
+     
+ }
+
+
+ .bottone {
+     background:grey;
+     color:black;
+     font-style:italic;
+     border:solid;
+     border-color:black;
+     font-weight:bold;
+     font-size:20px;
+     padding:10px;
+     
+     
+     
+ }
+  
+  input:focus,textarea:focus
+  {
+      background-color: midnightblue;
+  }
+  
+  form div 
+  {
+      display:block;
+      margin:4px;
+      margin-left:0px;
+      
+  }
+  .siderbarleft {
+     float: left;
+    width: 20%;
+    padding-left: 5px;
+    padding-right: 10px;
+    background:white;
+    margin-right:2%;
+      
+      
+  }
+   .siderbarright {
+      
+      
+     
+      float: right;
+    width: 20%;
+    padding-left: 5px;
+    padding-right: 10px;
+    background:white;
+    margin-left:2%;
+      
+  }
+ 
+  header
+  {
+      border:solid;
+      border-color:red;
+      background-color:black;
+  }
+  /*posizionamento indice che si trova nella pagina di descrizione*/
+#indice
+{
+    
+      margin-left: 42%;
+    margin-right: 40%;
+    
+}
+   
+#description
+{
+    padding-top:100px;
+    padding-left: 230px;
+    padding-right: 230px;
+    
+}
+
+
+
+
+#login {
+    display:block;
+text-align:end;   
+padding-top:10%;
+margin-right:40%;
+
+}
+#password  
+{
+    color:black;
+    font-weight:bold;
+}
+#username  
+{
+    color:black;
+    font-weight:bold;
+}
+
+form div
+{
+    margin: 15px;
+}
+#bottons {
+  display: inline-block;
+  
+  
+}
+
+
+
+#venditore {
+    display:block;
+text-align:end;   
+padding-top:10%;
+margin-right:37%;
+}
+  
+      
+footer div {
+      
+      height:50px;
+      border:solid;
+      border-color:white;
+      
+      
+  }
+ 
+  .page
+  {
+      background:#306070;
+      margin:5%;
+  }
+  
+      
+      
+      #bottonelogin
+      {
+          margin-right:7%;
+      }
+      
+      .contenuto {
+               margin-left: 30px;
+    margin-right: 30px;
+   }
+   footer {
+       font-size:16px;
+       color:black;
+   }
+  
+      }
+@media only screen and (min-width: 480px) and (max-width: 1024px) {
+ 
+          body {background-color:darkgray;
+       }
+ p { text-align : justify; 
+  font-family: "Comic Sans MS", Times, serif ; 
+color:  black;
+font-size:12px;
+font-weight:bold;
+}
+h1 { color: #FF0020;
+     font-size:38px;
+     font-family: "Algerian", Times,serif ;
+     text-align : center;}
+h2 {color: yellow;
+     font-family: "Elephant", Times, serif ;
+     text-align : center;
+     font-size:26px;
+     
+     }
+h3 {color: #20C0E0;
+         font-family: "times new roman", Times, serif ;
+     text-align : center;
+     text-decoration: underline;
+     font-size:17px;
+    }
+    h4 {
+        font-size:9px;
+    }
+    
+ ul { list-style-type: disc; }
+  li { /* RICORDATI DI GUARDARE DOVREI METTERE GRASSETTO ITALIC*/ 
+  font-style:italic;
+  font-size:15px;
+  color:black;
+  }
+  a {color:black;}
+ 
+  
+  
+  
+  #tab {position:relative;
+            overflow-x:auto;
+            margin-left:2%;
+            margin-right:2%;
+                
+                
+                }
+  th {color:white;
+  font-family: "Times New Roman", Times, serif ;
+  font-size: 18px;
+  padding:7px;
+  border-style:solid;
+      
+  
+  }
+  
+  tr {color:black;
+      font-family: "Times New Roman", Times, serif ;
+      font-size: 10px;
+      border-style:solid;
+     padding:7px;
+         font-weight:bold;
+      
+  }
+  td {padding:25px;
+      border-style:solid;
+          font-size: 10px;
+          text-align:center;
+          padding:7px;
+          font-weight:bold;
+ }
+ td>img {
+          max-width:100%;
+          height:auto
+      }
+ table {border-collapse:collapse;}
+ .dispari {background:#D0C030;}
+ .pari {background:#D0E030;}
+  .intestazione {/*metti un colore anche all'intestazione della tabella'*/background:
+#000010;}
+  
+  #Lin
+  { font-style:italic;
+  font-size:15px;
+  color:black;
+  }
+  #username {
+      font-family: "Times New Roman", Times, serif ;
+      font-size: 15px;
+      
+      
+      
+  }
+  #password {
+      
+          font-family: "Times New Roman", Times, serif ;
+      font-size: 15px;
+          
+  }
+  
+ input,textarea
+ {
+     border:solid;
+     border-color:yellow;
+     background:black;
+     color:white;
+     
+ }
+ 
+ label
+ {
+     color:black;
+    font-weight:bold;
+     
+     
+ }
+
+
+ .bottone {
+     background:grey;
+     color:black;
+     font-style:italic;
+     border:solid;
+     border-color:black;
+     font-weight:bold;
+     font-size:15px;
+     padding:7px;
+     
+     
+     
+ }
+  
+  input:focus,textarea:focus
+  {
+      background-color: midnightblue;
+  }
+  
+  form div 
+  {
+      display:block;
+      margin:4px;
+      margin-left:0px;
+      
+  }
+  .siderbarleft {
+     float: left;
+    width: 20%;
+    padding-left: 3px;
+    padding-right: 7px;
+    margin-right:2%;
+    background: white;
+      
+      
+  }
+   .siderbarright {
+      
+      display:none;
+     
+      float: right;
+    width: 20%;
+    padding-left: 3px;
+    padding-right: 7px;
+    background:white;
+      
+  }
+ 
+  header
+  {
+      border:solid;
+      border-color:red;
+      background-color:black;
+  }
+  
+#indice
+{
+    
+      margin-left: 42%;
+    margin-right: 40%;
+    
+}
+   
+#description
+{
+    padding-top:70px;
+    padding-left: 25%;
+    padding-right: 25%;
+    
+}
+
+
+
+
+#login {
+    display:block;
+text-align:end;   
+padding-top:10%;
+margin-right:25%;
+margin-left:25%;
+
+
+}
+#password  
+{
+    color:black;
+    font-weight:bold;
+}
+#username  
+{
+    color:black;
+    font-weight:bold;
+}
+
+form div
+{
+    margin: 10px;
+}
+#bottons {
+  display: inline-block;
+  
+  
+}
+
+
+
+#venditore {
+    display:block;
+text-align:end;   
+padding-top:10%;
+margin-right:25%;
+margin-left:25%;
+}
+  
+      
+footer div {
+      
+      height:40px;
+      border:solid;
+      border-color:white;
+      
+  }
+ 
+  .page
+  {
+      background:#306070;
+      margin:5%;
+  }
+  
+      
+      
+      #bottonelogin
+      {
+          margin-right:7%;
+      }
+      
+      .contenuto {
+          margin-left: 20px;
+    margin-right: 20px;
+    
+    
+      }
+      }
+      @media only screen and (max-width:480px) {
+          body {background-color:darkgray;
+       }
+ p { text-align : justify; 
+  font-family: "Comic Sans MS", Times, serif ; 
+color:  black;
+font-size:8px;
+font-weight:bold;
+}
+h1 { color: #FF0020;
+     font-size:30px;
+     font-family: "Algerian", Times,serif ;
+     text-align : center;}
+h2 {color: yellow;
+     font-family: "Elephant", Times, serif ;
+     text-align : center;
+     font-size:20px;
+     
+     }
+h3 {color: #20C0E0;
+         font-family: "times new roman", Times, serif ;
+     text-align : center;
+     text-decoration: underline;
+     font-size:12px;
+    }
+    h4 {
+        font-size:6px;
+    }
+    
+ ul { list-style-type: none;
+      padding:0px;
+ }
+  li { /* RICORDATI DI GUARDARE DOVREI METTERE GRASSETTO ITALIC*/ 
+  font-style:italic;
+  font-size:10px;
+  color:black;
+   padding:0px;
+  }
+  a {color:black;}
+ 
+  
+  
+  
+  #tab {position:relative;
+            overflow-x:auto;
+            margin-left:2%;
+            margin-right:2%;
+                
+                
+                }
+  th {color:white;
+  font-family: "Times New Roman", Times, serif ;
+  font-size: 14px;
+  padding:5px;
+  border-style:solid;
+      
+  
+  }
+  
+  tr {color:black;
+      font-family: "Times New Roman", Times, serif ;
+      font-size: 7px;
+      border-style:solid;
+     padding:5px;
+         font-weight:bold;
+      
+  }
+  td {padding:20px;
+      border-style:solid;
+          font-size: 7px;
+          text-align:center;
+          padding:5px;
+          font-weight:bold;
+ }
+ td>img {
+          max-width:100%;
+          height:auto
+      }
+ table {border-collapse:collapse;}
+ .dispari {background:#D0C030;}
+ .pari {background:#D0E030;}
+  .intestazione {/*metti un colore anche all'intestazione della tabella'*/background:
+#000010;}
+  
+  #Lin
+  { font-style:italic;
+  font-size:10px;
+  color:black;
+  }
+  #username {
+      font-family: "Times New Roman", Times, serif ;
+      font-size: 10px;
+      
+      
+      
+  }
+  #password {
+      
+          font-family: "Times New Roman", Times, serif ;
+      font-size: 10px;
+          
+  }
+  
+ input,textarea
+ {
+     width:130px;
+     border:solid;
+     border-color:yellow;
+     background:black;
+     color:white;
+     
+ }
+ 
+ label
+ {
+     color:black;
+    font-weight:bold;
+     
+     
+ }
+
+
+ .bottone {
+     background:grey;
+     color:black;
+     font-style:italic;
+     border:solid;
+     border-color:black;
+     font-weight:bold;
+     font-size:10px;
+     padding:5px;
+     
+     
+     
+ }
+  
+  input:focus,textarea:focus
+  {
+      background-color: midnightblue;
+  }
+  
+  form div 
+  {
+      display:block;
+      margin:4px;
+      margin-left:0px;
+      
+  }
+  .siderbarleft {
+     
+    width: 20%;
+    padding-left: 2px;
+    padding-right: 5px;
+    margin-right:2%;
+    background: white;
+      
+      
+  }
+   .siderbarright {
+      
+      display:none;
+     
+      float: right;
+    width: 20%;
+    padding-left: 2px;
+    padding-right: 5px;
+    background:white;
+      
+  }
+ 
+  header
+  {
+      border:solid;
+      border-color:red;
+      background-color:black;
+  }
+  
+#indice
+{
+    
+      margin-left: 42%;
+    margin-right: 40%;
+    
+}
+   
+#description
+{
+    padding-top:70px;
+    padding-left: 25%;
+    padding-right: 25%;
+    
+}
+
+
+
+
+#login {
+    display:block;
+text-align:end;   
+padding-top:10%;
+margin-right:25%;
+margin-left:25%;
+
+
+}
+#password  
+{
+    color:black;
+    font-weight:bold;
+}
+#username  
+{
+    color:black;
+    font-weight:bold;
+}
+
+form div
+{
+    margin: 7px;
+}
+#bottons {
+  display: inline-block;
+  
+  
+}
+
+
+
+#venditore {
+    display:block;
+text-align:end;   
+padding-top:10%;
+margin-right:25%;
+margin-left:25%;
+}
+  
+      
+footer div {
+      
+      height:30px;
+      border:solid;
+      border-color:white;
+      
+  }
+ 
+  .page
+  {
+      background:#306070;
+      margin:5%;
+  }
+  
+      
+      
+      #bottonelogin
+      {
+          margin-right:7%;
+      }
+      
+      .contenuto {
+          margin-left: 20px;
+    margin-right: 20px;
+    
+    
+      }
+          
+      }
+      
+
+
+
+          
+          
+      
+      
+          
+          
+          
+      
+      
+    
+
+
+    
+    
+     
+     
+     
+    
+    
+
+ 
+
