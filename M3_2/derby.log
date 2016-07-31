@@ -1,0 +1,33 @@
+Wed Jul 13 15:28:22 CEST 2016 : Server di rete Apache Derby: 10.11.1.2 - (1629631) avviato e pronto ad accettare connessioni sulla porta 1527
+----------------------------------------------------------------
+Wed Jul 13 16:13:25 CEST 2016:
+Avvio della versione di Derby The Apache Software Foundation - Apache Derby - 10.11.1.2 - (1629631): istanza a816c00e-0155-e471-9862-fffff4eaf5dd
+sulla directory di database C:\Users\mariabernadetta\Documents\NetBeansProjects\M3\E-COMMERCE con caricatore classi sun.misc.Launcher$AppClassLoader@5e2de80c 
+Caricato da file:/C:/Users/mariabernadetta/Desktop/jdk1.8.0_73/db/lib/derby.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_73-b02
+user.dir=C:\Users\mariabernadetta\Desktop\jdk1.8.0_73\db
+os.name=Windows 10
+os.arch=amd64
+os.version=10.0
+derby.system.home=C:\Users\mariabernadetta\Documents\NetBeansProjects\M3
+Programma di caricamento classe database avviato - derby.database.classpath=''
+----------------------------------------------------------------
+Wed Jul 13 16:13:39 CEST 2016:
+Arresto dell'istanza a816c00e-0155-e471-9862-fffff4eaf5dd nella directory del database C:\Users\mariabernadetta\Documents\NetBeansProjects\M3\E-COMMERCE con il caricatore di classi sun.misc.Launcher$AppClassLoader@5e2de80c 
+Wed Jul 13 16:13:39 CEST 2016 Thread[DRDAConnThread_3,5,main] (DATABASE = E-COMMERCE), (DRDAID = {2}), Chiusura del database 'E-COMMERCE'.
+----------------------------------------------------------------
+Wed Jul 13 16:13:52 CEST 2016:
+Avvio della versione di Derby The Apache Software Foundation - Apache Derby - 10.11.1.2 - (1629631): istanza a65c80ac-0155-e471-9862-fffff4eaf5dd
+sulla directory di database C:\Users\mariabernadetta\Documents\NetBeansProjects\M3\E-COMMERCE con caricatore classi sun.misc.Launcher$AppClassLoader@5e2de80c 
+Caricato da file:/C:/Users/mariabernadetta/Desktop/jdk1.8.0_73/db/lib/derby.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_73-b02
+user.dir=C:\Users\mariabernadetta\Desktop\jdk1.8.0_73\db
+os.name=Windows 10
+os.arch=amd64
+os.version=10.0
+derby.system.home=C:\Users\mariabernadetta\Documents\NetBeansProjects\M3
+Programma di caricamento classe database avviato - derby.database.classpath=''
+----------------------------------------------------------------
+Wed Jul 13 16:15:56 CEST 2016: arresto in corso del motore di Derby
