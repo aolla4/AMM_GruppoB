@@ -11,6 +11,8 @@ import java.util.ArrayList;
  * @author mariabernadetta
  */
 public class FactoryBuyObj {
+    private String connectionString ;
+    
     private static FactoryBuyObj singleton;
     public static FactoryBuyObj getInstance() {
         if (singleton == null) {
@@ -28,6 +30,7 @@ public class FactoryBuyObj {
         bj1.setobjdisp (8);
         bj1.setobjid(501);
         bj1.setobjsell (3);
+        ObjectList.add(bj1);
         
          BuyObj bj2 = new BuyObj(); 
         bj2.setobjname("Marco Mengoni - Parole in Circolo");
@@ -37,6 +40,7 @@ public class FactoryBuyObj {
         bj2.setobjdisp (14);
         bj2.setobjid(502);
         bj2.setobjsell (2);
+        ObjectList.add(bj2);
         
          BuyObj bj3 = new BuyObj(); 
         bj3.setobjname("Salmo - Hellvisback");
@@ -46,6 +50,7 @@ public class FactoryBuyObj {
         bj3.setobjdisp (3);
         bj3.setobjid(503);
         bj3.setobjsell (1);
+        ObjectList.add(bj3);
         
           BuyObj bj4 = new BuyObj(); 
         bj4.setobjname("Vasco Rossi - Sono Innocente");
@@ -55,6 +60,7 @@ public class FactoryBuyObj {
         bj4.setobjdisp (18);
         bj4.setobjid(504);
         bj4.setobjsell (2);
+        ObjectList.add(bj4);
         
          BuyObj bj5 = new BuyObj(); 
         bj5.setobjname("Nirvana - Never Mind");
@@ -64,6 +70,7 @@ public class FactoryBuyObj {
         bj5.setobjdisp (28);
         bj5.setobjid(5);
         bj5.setobjsell (3);
+        ObjectList.add(bj5);
     }
         
         
@@ -79,6 +86,20 @@ public class FactoryBuyObj {
      public ArrayList<BuyObj> getObjectList()
     {
         return ObjectList;
+    }
+
+    /**
+     * @return the connectionString
+     */
+    public String getConnectionString() {
+        return connectionString;
+    }
+
+    /**
+     * @param connectionString the connectionString to set
+     */
+    public void setConnectionString(String connectionString) {
+        this.connectionString = connectionString;
     }
     
     }

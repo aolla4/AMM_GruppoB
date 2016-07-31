@@ -5,20 +5,20 @@
  */
 package CLASSI;
 
-/**
- *
- * @author mariabernadetta
- */
+
 public class venditore {
-    String UserSeller;
-    String  Sellerpsw;
-    public int idSeller;
-    int idContoseller;
-    
+    private String UserSeller;
+    private String  Sellerpsw;
+    private int idSeller;
+    private Saldo idContoseller;
+   
 
- venditore(){
-
-}
+    public venditore(){
+        UserSeller = "";
+        Sellerpsw = "";
+        idSeller = 0;
+        
+    }   
 
     public String getUserSeller(){
 
@@ -50,12 +50,12 @@ public class venditore {
         this.idSeller = idSeller;
     }
 
-    public int getidContoseller(){
+    public Saldo getidContoseller(){
 
         return idContoseller;
     }
 
-    public void setidContoseller(int idContoseller){
+    public void setidContoseller(Saldo idContoseller){
 
         this.idContoseller = idContoseller;
     }

@@ -5,37 +5,40 @@
  */
 package CLASSI;
 
-/**
- *
- * @author mariabernadetta
- */
+
 public class Saldo {
-   int saldo;
-    public int idConto;
+  private int idsaldo;
+  private double saldo;
+  
+  
     
 
-Saldo(){
+public Saldo(double saldo){
+    this.saldo=saldo; //new Saldo(100.99)
+    
     
     }
-   public int getsaldo(){
+   public double getsaldo(){
         
         return saldo;
     }
     
-    public void setsaldo(int saldo){
+    public void setsaldo(double saldo){
         
         this.saldo = saldo;
     }
-    public int getidConto (){
-        
-        return idConto;
+
+    /**
+     * @return the idsaldo
+     */
+    public int getIdsaldo() {
+        return idsaldo;
     }
-    
-    public void setidConto (int idConto){
-        
-        this.idConto = idConto;
+
+    /**
+     * @param idsaldo the idsaldo to set
+     */
+    public void setIdsaldo(int idsaldo) {
+        this.idsaldo = idsaldo;
     }
 }
-
-
-

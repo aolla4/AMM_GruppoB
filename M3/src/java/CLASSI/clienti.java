@@ -5,20 +5,19 @@
  */
 package CLASSI;
 
-/**
- *
- * @author mariabernadetta
- */
+
 public class clienti {
-    String UserClient;
-    String  Clientpsw;
-    public int idClient;
-    int idContoclient;
+   private String UserClient;
+   private String  Clientpsw;
+   public int idClient;
+   private Saldo idContoclient;
     
 
- clienti(){
-
-}
+    public clienti(){
+    UserClient="";
+    Clientpsw="";
+    idClient=0;
+    }
 
     public String getUserClient(){
 
@@ -50,12 +49,12 @@ public class clienti {
         this.idClient = idClient;
     }
 
-    public int getidContoclient(){
+    public Saldo getidContoclient(){
 
         return idContoclient;
     }
 
-    public void setidContoclient(int idContoclient){
+    public void setidContoclient(Saldo idContoclient){
 
         this.idContoclient = idContoclient;
     }

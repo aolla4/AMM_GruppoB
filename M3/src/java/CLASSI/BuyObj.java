@@ -10,15 +10,23 @@ package CLASSI;
  * @author mariabernadetta
  */
 public class BuyObj {
-    String objname;
-    String objurl;
-    String objdesc;
-    double objprice;
-    int objdisp;
-    int objid;
-    int objsell;
+    private String objname;
+    private String objurl;
+    private String objdesc;
+    private double objprice;
+    private int objdisp;
+    public int objid;
+    private int objsell;
     
-    BuyObj(){
+    public BuyObj(){
+        objname="";
+        objurl="";
+        objdesc="";
+        objprice= 0.0;
+        objdisp=0;
+        objid=0;
+        objsell=0;
+                
         
     }
      public String getobjname(){
@@ -65,7 +73,7 @@ public class BuyObj {
 
     public void setobjdisp (int objdisp){
 
-        this.objdisp =objdisp;
+        this.objdisp = objdisp;
         
     }
      public int getobjid(){
